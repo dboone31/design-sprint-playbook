@@ -1,0 +1,17 @@
+<div class="play-card" data-phase="{{ include.phase }}" data-tags="{{ include.tags }}">
+    <div class="play-header">
+        <h4>{{ include.title }}</h4>
+        <span class="play-duration">{{ include.duration }}</span>
+    </div>
+    <p class="sports-name">{{ include.sports_name }}</p>
+    <p>{{ include.description }}</p>
+    <span class="play-phase">{{ include.phase_display }}</span>
+    {% if include.content %}
+    <details class="play-details">
+        <summary>View complete instructions</summary>
+        <div class="play-content">
+            {{ include.content | markdownify }}
+        </div>
+    </details>
+    {% endif %}
+</div>

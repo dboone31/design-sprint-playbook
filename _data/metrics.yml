@@ -1,0 +1,81 @@
+usability:
+  title: "Usability & User Experience"
+  description: "Measures how effectively users can accomplish their goals with the solution"
+  metrics:
+    - name: "SUS-Lite Score"
+      target: "≥ 80 points"
+      description: "System Usability Scale score indicating excellent usability and user satisfaction"
+      details:
+        includes:
+          - "10-question survey immediately after user testing"
+          - "5-point Likert scale responses"
+          - "Minimum 5 users for reliable scoring"
+        calculation: "Scored 0-100 where 80+ indicates excellent usability (top 10% of products)"
+    
+    - name: "Task Completion Rate"
+      target: "≥ 4 of 5 users"
+      description: "Users who successfully complete the primary workflow without assistance"
+      details:
+        includes:
+          - "Primary user workflow completion"
+          - "No facilitator intervention required"
+          - "Realistic data and scenarios used in testing"
+    
+    - name: "Setup Time"
+      target: "≤ 10 minutes"
+      description: "Time required for user onboarding and initial system setup"
+      details:
+        includes:
+          - "Account creation or login"
+          - "Initial configuration"
+          - "First successful completion of core workflow"
+
+business:
+  title: "Business Confidence"
+  description: "Measures market validation, stakeholder buy-in, and business viability"
+  metrics:
+    - name: "User Adoption Intent"
+      target: "≥ 4 of 5 users"
+      description: "Users who say they would adopt the workflow in their daily practice"
+      details:
+        question: "Based on what you've seen today, how likely would you be to use this solution in your regular workflow? (Yes/No/Maybe)"
+        context: "Asked after hands-on prototype testing with realistic scenarios and data."
+    
+    - name: "Stakeholder NPS"
+      target: "≥ 8/10"
+      description: "Net Promoter Score from stakeholder demo and presentation"
+      details:
+        calculation: "0-10 scale: 'How likely would you be to recommend this solution to others in similar situations?'"
+        scoring:
+          - "9-10: Promoters"
+          - "7-8: Passives"
+          - "0-6: Detractors"
+        formula: "NPS = % Promoters - % Detractors"
+    
+    - name: "Decision Alignment (AI Solutions)"
+      target: "85-95%"
+      description: "Agreement between AI recommendations and human expert decisions"
+      details:
+        measurement: "Compare AI system recommendations with human expert decisions on same scenarios. Calculate percentage agreement."
+        range: "85-95% indicates strong AI performance while maintaining human oversight value."
+
+technical:
+  title: "Technical Performance"
+  description: "Measures system reliability, performance, and development quality"
+  metrics:
+    - name: "P1 Defects"
+      target: "0 critical defects"
+      description: "Priority 1 defects that prevent core functionality or compromise user experience"
+      details:
+        examples:
+          functional: "User cannot complete primary workflow"
+          data: "Information is lost, corrupted, or incorrectly displayed"
+          security: "Unauthorized access or data exposure"
+          performance: "System timeout prevents task completion"
+    
+    - name: "Load Time"
+      target: "≤ 3 seconds"
+      description: "Time for primary interface to load and become interactive"
+      details:
+        measurement: "Time from navigation to first meaningful paint and interactive state"
+        conditions: "Standard network conditions and typical user hardware"

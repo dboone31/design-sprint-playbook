@@ -1,0 +1,13 @@
+<div class="exercise-card">
+    <h5>{{ include.title }}</h5>
+    <p class="exercise-duration">{{ include.duration }}</p>
+    <p>{{ include.description }}</p>
+    {% if include.details %}
+    <details class="exercise-details">
+        <summary>View detailed instructions</summary>
+        <div class="exercise-content">
+            {{ include.details | markdownify }}
+        </div>
+    </details>
+    {% endif %}
+</div>

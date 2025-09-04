@@ -1,0 +1,148 @@
+- title: "Note-and-Vote"
+  duration: "5 min"
+  sports_name: "The Quick Huddle"
+  description: "Rapid structured decision-making process for any situation requiring quick consensus."
+  phase: "all"
+  phase_display: "All phases"
+  tags: "note vote decision making quick"
+  content: |
+    ## Purpose & Goals
+    Make quick decisions with team input while maintaining momentum and avoiding analysis paralysis.
+    
+    ## Step-by-Step Process
+    1. **Silent Writing (2-3 min):** Everyone writes ideas/answers silently on sticky notes
+    2. **Silent Review (2-3 min):** Post notes, everyone reviews silently
+    3. **Dot Voting (2-3 min):** Everyone votes with dots on preferred options
+    4. **Decider's Call (1-2 min):** Decider makes final choice considering votes
+    
+    ## Required Materials
+    - Sticky notes (different colors optional)
+    - Pens for all participants
+    - Dot stickers for voting
+    - Wall space or large surface
+
+- title: "Lightning Demos"
+  duration: "3 min each"
+  sports_name: "Film Study"
+  description: "Quick demos of existing solutions for cross-industry inspiration and pattern recognition."
+  phase: "ideation"
+  phase_display: "Dream/Ideation"
+  tags: "lightning demos inspiration research"
+  content: |
+    ## Purpose & Goals
+    Gather inspiration from existing solutions across industries to inform solution design without copying directly.
+    
+    ## Step-by-Step Process
+    1. **Research Phase (individual time):** Find examples of similar solutions from other companies/industries
+    2. **Presentation (3 min each):** Show solution, explain what's interesting, avoid detailed critique
+    3. **Note Taking:** Capture interesting patterns and approaches
+    4. **Quick Synthesis:** Identify common themes and novel approaches
+    
+    ## Required Materials
+    - Screen for presentations
+    - Timer
+    - Note-taking materials
+    - Research examples prepared in advance
+
+- title: "Four-Step Sketches"
+  duration: "90 min"
+  sports_name: "The Playmaker Series"
+  description: "Comprehensive structured individual ideation process to generate detailed solution concepts."
+  phase: "ideation"
+  phase_display: "Dream/Ideation"
+  tags: "sketch ideation structured four step"
+  content: |
+    ## Complete 90-Minute Breakdown
+    
+    ### Step 1: Notes (20 minutes)
+    **Instruction:** Walk around room, copy down everything from walls (HMWs, goals, questions). No devices except for reference materials.
+    **Purpose:** Gather all available information without filtering or judging
+    **Tips:** Don't edit or organize - just capture everything that might be relevant
+    
+    ### Step 2: Ideas (20 minutes)
+    **Instruction:** Based on notes, write rough ideas for elements of a solution. Aim for 20+ ideas.
+    **Purpose:** Brain dump without commitment to any single direction
+    **Format:** Bullet points, rough sketches, single words - whatever gets ideas out quickly
+    
+    ### Step 3: Crazy 8s (8 minutes)
+    **Instruction:** Fold paper into 8 sections. Sketch 8 different ideas in 8 minutes (1 minute each)
+    **Purpose:** Push beyond obvious solutions through time pressure
+    **Rules:** Don't worry about details or beauty - focus on different approaches to core user need
+    
+    ### Step 4: Solution Sketch (30-45 minutes)
+    **Instruction:** Create detailed 3-panel storyboard showing user's experience with your solution
+    **Format:** Panel 1: Setup/context, Panel 2: Key interaction, Panel 3: Outcome/benefit
+    **Detail Level:** Include enough detail that someone else could build from your sketch
+    
+    ## Required Materials
+    - Large paper (11x17 recommended)
+    - Sticky notes
+    - Markers (multiple colors)
+    - Timer
+
+- title: "Heat Map Voting"
+  duration: "10 min"
+  sports_name: "The Draft Pick"
+  description: "Silent dot voting to identify areas of interest across solution sketches and concepts."
+  phase: "converge"
+  phase_display: "Converge/Decide"
+  tags: "heat map voting dot interest"
+  content: |
+    ## Purpose & Goals
+    Identify most interesting parts of solution concepts through silent, individual assessment before group discussion.
+    
+    ## Step-by-Step Process
+    1. **Silent Review (5 min):** Walk around, review all solution sketches silently. No discussion or questions.
+    2. **Dot Voting (3 min):** Place dots on interesting parts (not whole concepts). Use different colored dots for different criteria.
+    3. **Pattern Recognition (2 min):** Identify patterns in voting, highlight popular areas and surprising results.
+    
+    ## Required Materials
+    - Dot stickers (multiple colors)
+    - Posted solution sketches
+    - Wall space for easy viewing
+    
+    ## Voting Criteria Options
+    - Most likely to delight users
+    - Most technically feasible
+    - Best addresses core problem
+    - Most innovative approach
+
+- title: "Speed Critique"
+  duration: "20 min"
+  sports_name: "The Film Review"
+  description: "Structured rapid feedback on all concepts to surface insights before final decisions."
+  phase: "converge"
+  phase_display: "Converge/Decide"
+  tags: "speed critique feedback structured"
+
+- title: "User Journey Mapping"
+  duration: "60 min"
+  sports_name: "The Game Film Analysis"
+  description: "JTBD-framed critical path mapping to understand user context and pain points."
+  phase: "understand"
+  phase_display: "Understand"
+  tags: "user journey mapping jtbd jobs"
+
+- title: "Problem Statement"
+  duration: "30 min"
+  sports_name: "Mission Definition"
+  description: "Frame the core problem in user-centered language with measurable success criteria."
+  phase: "understand"
+  phase_display: "Understand"
+  tags: "problem statement definition framing"
+
+- title: "Competitive Analysis"
+  duration: "45 min"
+  sports_name: "Opposition Scouting"
+  description: "Systematic analysis of competitive landscape and differentiation opportunities."
+  phase: "understand"
+  phase_display: "Understand"
+  tags: "competitive analysis market research"
+
+- title: "Usability Testing"
+  duration: "90 min"
+  sports_name: "The Game Day Test"
+  description: "Structured user testing sessions to validate prototype with real users."
+  phase: "test"
+  phase_display: "Test"
+  tags: "usability testing validation user feedback"

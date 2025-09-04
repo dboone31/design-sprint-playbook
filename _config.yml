@@ -1,0 +1,48 @@
+title: "Moreland Connect Playbook: From Vision to Victory"
+description: "Your comprehensive guide to running world-class design sprints"
+baseurl: ""
+url: "https://dboone31.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  chapters:
+    output: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Include/Exclude
+include:
+  - _pages
+
+exclude:
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - JEKYLL_MIGRATION_PLAN.md
+
+# Disable theme to use our own layouts
+theme: null
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"

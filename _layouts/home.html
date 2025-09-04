@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section id="home" class="hero-section content-section">
+    <div class="container">
+        <div class="hero-content">
+            {{ content }}
+        </div>
+    </div>
+</section>
+
+{% for chapter in site.chapters %}
+    {% if chapter.path contains '_chapters/' and chapter.slug != 'home' %}
+        <section id="{{ chapter.slug }}" class="content-section">
+            <div class="container">
+                {{ chapter.content }}
+            </div>
+        </section>
+    {% endif %}
+{% endfor %}

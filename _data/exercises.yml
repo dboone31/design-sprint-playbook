@@ -1,0 +1,144 @@
+understand:
+  - title: "Problem Statement"
+    duration: "30 minutes"
+    description: "Frame the core problem in user-centered language with success criteria."
+    details: |
+      **Setup:** Whiteboard or digital canvas, sticky notes
+      
+      **Process:**
+      1. Have each team member write their understanding of the problem (5 min)
+      2. Share and cluster similar problem statements (10 min)
+      3. Identify the core problem and affected user groups (10 min)
+      4. Draft single problem statement with success criteria (5 min)
+      
+      **Output:** One-sentence problem statement with measurable success criteria
+
+  - title: "Pitch Practice"
+    duration: "20 minutes"
+    description: "Each stakeholder pitches their understanding of the solution space."
+    details: |
+      **Setup:** Timer, presentation space
+      
+      **Process:**
+      1. Each key stakeholder gets 3 minutes to pitch their vision
+      2. Focus on: problem, user, solution hypothesis, success metrics
+      3. No questions or feedback during pitches
+      4. Note commonalities and differences
+      
+      **Scoring Criteria:** Problem clarity, user focus, solution feasibility, metric definition
+
+  - title: "5 Whys"
+    duration: "25 minutes"
+    description: "Drill down to root causes of the problem being solved."
+    details: |
+      **Example Chain:**
+      1. Why do users struggle with our current workflow? → Too many steps
+      2. Why are there too many steps? → Multiple disconnected systems
+      3. Why weren't systems connected initially? → Different vendors, no integration plan
+      4. Why was there no integration plan? → Requirements gathered in silos
+      5. Why were requirements gathered in silos? → No cross-functional planning process
+      
+      **Output:** Root cause identification and validation opportunities
+
+  - title: "Card Sorting"
+    duration: "40 minutes"
+    description: "Organize and prioritize features, assumptions, or user needs."
+    details: |
+      **Materials:** Index cards or digital cards, categories
+      
+      **Methodology:**
+      1. Write each feature/assumption on individual cards (15 min)
+      2. Create category groups (Must Have, Nice to Have, Out of Scope) (10 min)
+      3. Have team members individually sort cards into categories (10 min)
+      4. Discuss discrepancies and reach consensus (5 min)
+      
+      **Output:** Prioritized feature list and scope boundaries
+
+  - title: "Beginner's Mind"
+    duration: "15 minutes"
+    description: "Question fundamental assumptions about users and solutions."
+
+  - title: "Assumptions Board"
+    duration: "30 minutes"
+    description: "Document and prioritize assumptions that need validation."
+
+diverge:
+  - title: "Four-Step Sketches"
+    duration: "90 minutes"
+    description: "Comprehensive structured individual ideation process to generate detailed solution concepts."
+    details: |
+      **Complete 90-Minute Breakdown:**
+      
+      **Step 1: Notes (20 minutes)**
+      - **Instruction:** Walk around room, copy down everything from walls (HMWs, goals, questions). No devices except for reference materials.
+      - **Purpose:** Gather all available information without filtering or judging
+      - **Tips:** Don't edit or organize - just capture everything that might be relevant
+      
+      **Step 2: Ideas (20 minutes)**
+      - **Instruction:** Based on notes, write rough ideas for elements of a solution. Aim for 20+ ideas.
+      - **Purpose:** Brain dump without commitment to any single direction
+      - **Format:** Bullet points, rough sketches, single words - whatever gets ideas out quickly
+      
+      **Step 3: Crazy 8s (8 minutes)**
+      - **Instruction:** Fold paper into 8 sections. Sketch 8 different ideas in 8 minutes (1 minute each)
+      - **Purpose:** Push beyond obvious solutions through time pressure
+      - **Rules:** Don't worry about details or beauty - focus on different approaches to core user need
+      
+      **Step 4: Solution Sketch (30-45 minutes)**
+      - **Instruction:** Create detailed 3-panel storyboard showing user's experience with your solution
+      - **Format:** Panel 1: Setup/context, Panel 2: Key interaction, Panel 3: Outcome/benefit
+      - **Detail Level:** Include enough detail that someone else could build from your sketch
+      
+      **Materials:** Large paper, sticky notes, markers, timer
+
+  - title: "Lightning Demos"
+    duration: "3 min each"
+    description: "Quick demos of existing solutions for cross-industry inspiration and pattern recognition."
+    details: |
+      **Purpose & Goals**
+      Gather inspiration from existing solutions across industries to inform solution design without copying directly.
+      
+      **Step-by-Step Process**
+      1. **Research Phase (individual time):** Find examples of similar solutions from other companies/industries
+      2. **Presentation (3 min each):** Show solution, explain what's interesting, avoid detailed critique
+      3. **Note Taking:** Capture interesting patterns and approaches
+      4. **Quick Synthesis:** Identify common themes and novel approaches
+
+converge:
+  - title: "Heat Map Voting"
+    duration: "10 minutes"
+    description: "Silent dot voting to identify areas of interest across solution sketches and concepts."
+    details: |
+      **Purpose & Goals**
+      Identify most interesting parts of solution concepts through silent, individual assessment before group discussion.
+      
+      **Step-by-Step Process**
+      1. **Silent Review (5 min):** Walk around, review all solution sketches silently. No discussion or questions.
+      2. **Dot Voting (3 min):** Place dots on interesting parts (not whole concepts). Use different colored dots for different criteria.
+      3. **Pattern Recognition (2 min):** Identify patterns in voting, highlight popular areas and surprising results.
+
+  - title: "Speed Critique"
+    duration: "20 minutes"
+    description: "Structured rapid feedback on all concepts to surface insights before final decisions."
+
+  - title: "Storyboard"
+    duration: "60 minutes"
+    description: "Create detailed user journey through chosen solution concept."
+
+prototype:
+  - title: "MVP Definition"
+    duration: "45 minutes"
+    description: "Define minimum viable features for testing core hypothesis."
+
+  - title: "Rapid Prototyping"
+    duration: "4-6 hours"
+    description: "Build testable prototype using appropriate fidelity for validation goals."
+
+test:
+  - title: "User Testing"
+    duration: "5-7 interviews"
+    description: "Structured interviews with target users to validate core assumptions."
+
+  - title: "Results Synthesis"
+    duration: "60 minutes"
+    description: "Analyze feedback patterns and determine next steps."

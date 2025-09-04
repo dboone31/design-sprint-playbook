@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include navigation.html %}
+    
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+</body>
+</html>
