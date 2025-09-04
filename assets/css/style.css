@@ -1,37 +1,59 @@
 :root {
-  /* Primitive Color Tokens */
+  /* MorelandConnect Corporate Color Tokens */
   --color-white: rgba(255, 255, 255, 1);
   --color-black: rgba(0, 0, 0, 1);
-  --color-cream-50: rgba(252, 252, 249, 1);
-  --color-cream-100: rgba(255, 255, 253, 1);
-  --color-gray-200: rgba(245, 245, 245, 1);
-  --color-gray-300: rgba(167, 169, 169, 1);
-  --color-gray-400: rgba(119, 124, 124, 1);
-  --color-slate-500: rgba(98, 108, 113, 1);
-  --color-brown-600: rgba(94, 82, 64, 1);
-  --color-charcoal-700: rgba(31, 33, 33, 1);
-  --color-charcoal-800: rgba(38, 40, 40, 1);
-  --color-slate-900: rgba(19, 52, 59, 1);
-  --color-teal-300: rgba(50, 184, 198, 1);
-  --color-teal-400: rgba(45, 166, 178, 1);
-  --color-teal-500: rgba(33, 128, 141, 1);
-  --color-teal-600: rgba(29, 116, 128, 1);
-  --color-teal-700: rgba(26, 104, 115, 1);
-  --color-teal-800: rgba(41, 150, 161, 1);
-  --color-red-400: rgba(255, 84, 89, 1);
-  --color-red-500: rgba(192, 21, 47, 1);
-  --color-orange-400: rgba(230, 129, 97, 1);
-  --color-orange-500: rgba(168, 75, 47, 1);
+  
+  /* Corporate Primary Colors */
+  --color-navy-primary: rgba(26, 54, 93, 1);    /* #1a365d - Primary brand navy */
+  --color-navy-dark: rgba(16, 42, 74, 1);       /* #102a4a - Darker variant */
+  --color-navy-light: rgba(45, 55, 72, 1);      /* #2d3748 - Secondary dark */
+  
+  /* Corporate Blue Palette */
+  --color-blue-50: rgba(247, 250, 252, 1);      /* #f7fafc - Very light blue */
+  --color-blue-100: rgba(237, 242, 247, 1);     /* #edf2f7 - Light blue */
+  --color-blue-200: rgba(226, 232, 240, 1);     /* #e2e8f0 - Light blue accent */
+  --color-blue-300: rgba(203, 213, 224, 1);     /* #cbd5e0 - Medium light blue */
+  --color-blue-400: rgba(160, 174, 192, 1);     /* #a0aec0 - Medium blue */
+  --color-blue-500: rgba(49, 130, 206, 1);      /* #3182ce - Corporate blue accent */
+  --color-blue-600: rgba(43, 108, 176, 1);      /* #2b6cb0 - Blue hover */
+  --color-blue-700: rgba(30, 64, 175, 1);       /* #1e40af - Dark blue */
+  
+  /* Corporate Gray Palette */
+  --color-gray-50: rgba(249, 250, 251, 1);      /* #f9fafb - Background */
+  --color-gray-100: rgba(243, 244, 246, 1);     /* #f3f4f6 - Light gray */
+  --color-gray-200: rgba(229, 231, 235, 1);     /* #e5e7eb - Border gray */
+  --color-gray-300: rgba(209, 213, 219, 1);     /* #d1d5db - Medium border */
+  --color-gray-400: rgba(156, 163, 175, 1);     /* #9ca3af - Secondary text */
+  --color-gray-500: rgba(107, 114, 128, 1);     /* #6b7280 - Text secondary */
+  --color-gray-600: rgba(75, 85, 99, 1);        /* #4b5563 - Text primary */
+  --color-gray-700: rgba(55, 65, 81, 1);        /* #374151 - Dark text */
+  --color-gray-800: rgba(31, 41, 55, 1);        /* #1f2937 - Very dark */
+  --color-gray-900: rgba(17, 24, 39, 1);        /* #111827 - Darkest */
+  
+  /* Status Colors */
+  --color-success-400: rgba(52, 211, 153, 1);   /* #34d399 - Light success */
+  --color-success-500: rgba(16, 185, 129, 1);   /* #10b981 - Success */
+  --color-success-600: rgba(5, 150, 105, 1);    /* #059669 - Success dark */
+  --color-warning-400: rgba(251, 191, 36, 1);   /* #fbbf24 - Light warning */
+  --color-warning-500: rgba(245, 158, 11, 1);   /* #f59e0b - Warning */
+  --color-warning-600: rgba(217, 119, 6, 1);    /* #d97706 - Warning dark */
+  --color-error-400: rgba(248, 113, 113, 1);    /* #f87171 - Light error */
+  --color-error-500: rgba(239, 68, 68, 1);      /* #ef4444 - Error */
+  --color-error-600: rgba(220, 38, 38, 1);      /* #dc2626 - Error dark */
 
-  /* RGB versions for opacity control */
-  --color-brown-600-rgb: 94, 82, 64;
-  --color-teal-500-rgb: 33, 128, 141;
-  --color-slate-900-rgb: 19, 52, 59;
-  --color-slate-500-rgb: 98, 108, 113;
-  --color-red-500-rgb: 192, 21, 47;
-  --color-red-400-rgb: 255, 84, 89;
-  --color-orange-500-rgb: 168, 75, 47;
-  --color-orange-400-rgb: 230, 129, 97;
+  /* RGB versions for opacity control - Corporate Colors */
+  --color-navy-primary-rgb: 26, 54, 93;       /* #1a365d */
+  --color-navy-dark-rgb: 16, 42, 74;          /* #102a4a */
+  --color-navy-light-rgb: 45, 55, 72;         /* #2d3748 */
+  --color-blue-500-rgb: 49, 130, 206;         /* #3182ce */
+  --color-blue-600-rgb: 43, 108, 176;         /* #2b6cb0 */
+  --color-gray-400-rgb: 156, 163, 175;        /* #9ca3af */
+  --color-gray-500-rgb: 107, 114, 128;        /* #6b7280 */
+  --color-gray-600-rgb: 75, 85, 99;           /* #4b5563 */
+  --color-gray-700-rgb: 55, 65, 81;           /* #374151 */
+  --color-success-500-rgb: 16, 185, 129;      /* #10b981 */
+  --color-warning-500-rgb: 245, 158, 11;      /* #f59e0b */
+  --color-error-500-rgb: 239, 68, 68;         /* #ef4444 */
 
   /* Background color tokens (Light Mode) */
   --color-bg-1: rgba(59, 130, 246, 0.08); /* Light blue */
@@ -43,27 +65,27 @@
   --color-bg-7: rgba(236, 72, 153, 0.08); /* Light pink */
   --color-bg-8: rgba(6, 182, 212, 0.08); /* Light cyan */
 
-  /* Semantic Color Tokens (Light Mode) */
-  --color-background: var(--color-cream-50);
-  --color-surface: var(--color-cream-100);
-  --color-text: var(--color-slate-900);
-  --color-text-secondary: var(--color-slate-500);
-  --color-primary: var(--color-teal-500);
-  --color-primary-hover: var(--color-teal-600);
-  --color-primary-active: var(--color-teal-700);
-  --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
-  --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
-  --color-border: rgba(var(--color-brown-600-rgb), 0.2);
-  --color-btn-primary-text: var(--color-cream-50);
-  --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-error: var(--color-red-500);
-  --color-success: var(--color-teal-500);
-  --color-warning: var(--color-orange-500);
-  --color-info: var(--color-slate-500);
-  --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
-  --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
+  /* Semantic Color Tokens (Light Mode) - Corporate Theme */
+  --color-background: var(--color-white);
+  --color-surface: var(--color-gray-50);
+  --color-text: var(--color-gray-800);
+  --color-text-secondary: var(--color-gray-500);
+  --color-primary: var(--color-navy-primary);
+  --color-primary-hover: var(--color-navy-dark);
+  --color-primary-active: var(--color-blue-700);
+  --color-secondary: rgba(var(--color-gray-400-rgb), 0.12);
+  --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.2);
+  --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.25);
+  --color-border: var(--color-gray-200);
+  --color-btn-primary-text: var(--color-white);
+  --color-card-border: var(--color-gray-200);
+  --color-card-border-inner: var(--color-gray-100);
+  --color-error: var(--color-error-500);
+  --color-success: var(--color-success-500);
+  --color-warning: var(--color-warning-500);
+  --color-info: var(--color-blue-500);
+  --color-focus-ring: rgba(var(--color-navy-primary-rgb), 0.4);
+  --color-select-caret: rgba(var(--color-gray-700-rgb), 0.8);
 
   /* Common style patterns */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
@@ -79,11 +101,10 @@
   --color-warning-rgb: 168, 75, 47;
   --color-info-rgb: 98, 108, 113;
 
-  /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
-    Monaco, Consolas, monospace;
+  /* Typography - Corporate System Fonts */
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-mono: "SF Mono", ui-monospace, SFMono-Regular, "Cascadia Code", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
   --font-size-xs: 11px;
   --font-size-sm: 12px;
   --font-size-base: 14px;
@@ -612,8 +633,8 @@ select.form-control {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: var(--space-16);
-  padding-left: var(--space-16);
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 @media (min-width: 640px) {
@@ -731,11 +752,7 @@ select.form-control {
   border: 1px solid var(--color-border-secondary);
 }
 
-@font-face {
-  font-family: 'FKGroteskNeue';
-  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
-    format('woff2');
-}
+/* Corporate fonts - using system font stack, no external fonts needed */
 
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Custom styles for comprehensive Moreland Playbook */
@@ -758,7 +775,20 @@ select.form-control {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-16) var(--space-24);
+  padding: var(--space-20) var(--space-32);
+  min-height: 80px;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 45px;
+  width: auto;
+  max-width: 220px;
+  margin-right: var(--space-16);
 }
 
 .nav-brand h3 {
@@ -770,8 +800,9 @@ select.form-control {
 
 .nav-chapters {
   display: flex;
-  gap: var(--space-24);
+  gap: var(--space-32);
   align-items: center;
+  margin: 0 var(--space-32);
 }
 
 .nav-link {
@@ -826,35 +857,36 @@ select.form-control {
 
 /* Main Content */
 .main-content {
-  padding-top: 80px; /* Account for fixed nav */
+  padding-top: 100px; /* Account for fixed nav with improved spacing */
 }
 
 /* Hero Section with Enhanced Philosophy */
 .hero-section {
   background: linear-gradient(135deg, var(--color-bg-1) 0%, var(--color-bg-3) 100%);
-  padding: var(--space-32) 0 var(--space-32) 0;
+  padding: 64px 32px 64px 32px;
   text-align: center;
-  scroll-margin-top: 80px; /* Account for fixed navigation */
+  scroll-margin-top: 100px; /* Account for fixed navigation */
 }
 
 .hero-content h1 {
   font-size: var(--font-size-4xl);
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-24);
   color: var(--color-text);
+  line-height: var(--line-height-tight);
 }
 
 .hero-subtitle {
   font-size: var(--font-size-2xl);
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
-  margin: 0 0 var(--space-24) 0;
+  margin: 0 0 var(--space-32) 0;
 }
 
 .hero-description {
   font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
   max-width: 700px;
-  margin: 0 auto var(--space-32) auto;
+  margin: 0 auto 48px auto;
   line-height: var(--line-height-normal);
 }
 
@@ -862,9 +894,10 @@ select.form-control {
 .hero-offerings {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: var(--space-32);
-  max-width: 1000px;
-  margin: 0 auto var(--space-32) auto;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 64px auto;
+  padding: 0 var(--space-16);
 }
 
 .offering-card {
@@ -892,13 +925,13 @@ select.form-control {
 }
 
 .offering-header {
-  padding: var(--space-24) var(--space-24) var(--space-16) var(--space-24);
+  padding: 28px 32px 12px 32px;
   border-bottom: 1px solid var(--color-card-border-inner);
 }
 
 .offering-header h3 {
   color: var(--color-text);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-6);
   font-size: var(--font-size-2xl);
 }
 
@@ -908,22 +941,23 @@ select.form-control {
   font-size: var(--font-size-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin: 0 0 var(--space-12) 0;
+  margin: 0 0 var(--space-8) 0;
 }
 
 .timeline-badge {
   display: inline-block;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-teal-400));
-  color: var(--color-btn-primary-text);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--radius-full);
+  background: var(--color-navy-primary);
+  color: var(--color-white);
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--radius-base);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
-  margin-top: var(--space-8);
+  margin-top: var(--space-12);
+  border: 1px solid var(--color-navy-dark);
 }
 
 .offering-details {
-  padding: var(--space-16) var(--space-24);
+  padding: 12px 32px;
 }
 
 .offering-details p {
@@ -948,13 +982,13 @@ select.form-control {
 }
 
 .offering-card .btn {
-  margin: var(--space-16) var(--space-24) var(--space-24) var(--space-24);
+  margin: 16px 32px 32px 32px;
 }
 
 /* Enhanced Philosophy Section */
 .philosophy-section {
-  margin-top: var(--space-32);
-  padding-top: var(--space-32);
+  margin-top: 64px;
+  padding: 64px 32px;
   border-top: 2px solid var(--color-border);
   text-align: left;
 }
@@ -2783,14 +2817,21 @@ select.form-control {
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
-    gap: var(--space-16);
-    padding: var(--space-12) var(--space-16);
+    gap: var(--space-20);
+    padding: var(--space-16) var(--space-20);
+    min-height: 120px;
   }
   
   .nav-chapters {
     flex-wrap: wrap;
     justify-content: center;
-    gap: var(--space-12);
+    gap: var(--space-16);
+    margin: 0;
+  }
+  
+  .nav-logo {
+    height: 40px;
+    margin-right: 0;
   }
   
   .search-input, .plays-search-input {
@@ -2800,6 +2841,15 @@ select.form-control {
   
   .main-content {
     padding-top: 140px;
+  }
+  
+  .hero-section {
+    padding: 48px 20px;
+  }
+  
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
   }
   
   .hero-offerings {

@@ -2,13 +2,12 @@
 layout: home
 ---
 
-# Moreland Connect Playbook
+# MorelandConnect Design Sprint Playbook
 
 **From Vision to Victory**
 
-Your comprehensive guide to running world-class design sprints. Two proven playbooks to take ideas from concept to market-ready solutions, with the depth and precision of Thoughtbot's methodology.
+Your comprehensive guide to running world-class design sprints. Two proven playbooks to take ideas from concept to market-ready solutions, with the depth and precision that drives results.
 
-## Corrected Timeline Offerings
 
 <div class="hero-offerings">
     <div class="offering-card prototype-path">
