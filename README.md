@@ -148,9 +148,16 @@ design-sprint-playbook/
 
 ### GitHub Pages (Automatic)
 
-1. Push changes to the `main` branch
-2. GitHub Pages will automatically build and deploy
-3. Site will be available at: `https://yourusername.github.io/design-sprint-playbook`
+1. **Configure the baseurl** in `_config.yml`:
+   ```yaml
+   baseurl: "/your-repository-name"  # e.g., "/design-sprint-playbook"
+   ```
+
+2. Push changes to the `main` branch
+3. Enable GitHub Pages in repository settings (Settings > Pages > Source: Deploy from a branch > main)
+4. Site will be available at: `https://yourusername.github.io/your-repository-name`
+
+**Important:** The `baseurl` must match your repository name exactly for assets to load correctly on GitHub Pages.
 
 ### Manual Deployment
 
@@ -174,6 +181,12 @@ design-sprint-playbook/
 - Hard refresh browser (`Cmd+Shift+R` on Mac, `Ctrl+Shift+R` on Windows)
 - Check that `assets/css/style.css` exists
 - Verify Jekyll is serving assets correctly
+
+**GitHub Pages styling missing:**
+- Check that `baseurl` in `_config.yml` matches your repository name exactly
+- Repository name: `/design-sprint-playbook` → `baseurl: "/design-sprint-playbook"`
+- User/organization site: `username.github.io` → `baseurl: ""`
+- Wait 5-10 minutes after pushing changes for GitHub Pages to rebuild
 
 **Content not updating:**
 - Check file syntax (YAML front matter, Markdown formatting)
