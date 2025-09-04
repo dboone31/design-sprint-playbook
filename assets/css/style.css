@@ -826,17 +826,7 @@ select.form-control {
   background-color: var(--color-bg-1);
 }
 
-.nav-link.active::after {
-  content: '';
-  position: absolute;
-  bottom: -var(--space-16);
-  left: 50%;
-  transform: translateX(-50%);
-  width: 4px;
-  height: 4px;
-  background-color: var(--color-primary);
-  border-radius: 50%;
-}
+/* Removed active link dot indicator */
 
 .search-input {
   width: 200px;
