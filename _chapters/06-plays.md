@@ -314,8 +314,6 @@ layout: chapter
         <span class="play-phase">Test & Learn</span>
     </div>
 </div>
-
-<div class="downloadable-templates">
     <h4>Downloadable Templates & Resources</h4>
     <div class="templates-grid">
         <div class="template-card">
