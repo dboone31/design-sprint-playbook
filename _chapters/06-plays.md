@@ -21,7 +21,7 @@ layout: chapter
         <button class="filter-btn" data-filter="prototype">Prototype</button>
         <button class="filter-btn" data-filter="test">Test & Learn</button>
     </div>
-    
+
     <div class="plays-search">
         <input type="text" placeholder="Search exercises..." class="plays-search-input" id="playsSearchInput">
     </div>
@@ -41,7 +41,7 @@ layout: chapter
             <div class="play-content">
                 <h5>Purpose & Goals</h5>
                 <p>Make quick decisions with team input while maintaining momentum and avoiding analysis paralysis.</p>
-                
+
                 <h5>Step-by-Step Process</h5>
                 <ol>
                     <li><strong>Silent Writing (2-3 min):</strong> Everyone writes ideas/answers silently on sticky notes</li>
@@ -312,29 +312,5 @@ layout: chapter
         <p class="sports-name">Live Game Performance</p>
         <p>Structured user testing sessions with task-based interactions and insight collection.</p>
         <span class="play-phase">Test & Learn</span>
-    </div>
-</div>
-    <h4>Downloadable Templates & Resources</h4>
-    <div class="templates-grid">
-        <div class="template-card">
-            <h5>Sprint Planning Template</h5>
-            <p>Complete agenda and timeline for 5-day intensive sprints</p>
-            <a href="#" class="btn btn--outline btn--sm">Download PDF</a>
-        </div>
-        <div class="template-card">
-            <h5>Exercise Instruction Cards</h5>
-            <p>Printable cards with step-by-step instructions for all exercises</p>
-            <a href="#" class="btn btn--outline btn--sm">Download PDF</a>
-        </div>
-        <div class="template-card">
-            <h5>User Testing Script</h5>
-            <p>Complete script and question frameworks for prototype testing</p>
-            <a href="#" class="btn btn--outline btn--sm">Download PDF</a>
-        </div>
-        <div class="template-card">
-            <h5>Decision Framework</h5>
-            <p>Proceed/Pivot/Pause criteria and evaluation templates</p>
-            <a href="#" class="btn btn--outline btn--sm">Download PDF</a>
-        </div>
     </div>
 </div>
